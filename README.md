@@ -1,9 +1,22 @@
 # FarmValuation
 A tool to find the total valuation of your farm in farming simulator 22
 
-# Running Script
-First open up script you will need to change path and map they are at the bottom of the file, around lines 90-100.
-Run the script and see output.
+# Usage
+Run the FarmValuation application file.
+Enter in savegame file location :
+
+`C:/YOUR_USERNAME_HERE/Documents/My Games/FarmingSimulator2022/DESIRED_SAVEGAME_HERE`
+
+Enter in map location:
+
+`C:/PATH/TO/FILE/map.txt`
+
+Maps included are:
+
+`ElmsCreek.txt`
+`NoMansLand.txt`
+
+More to be added in future
 
 # Adding more maps
 To add another map create a new map.txt file and put the feild number followed by the price of the feild and a new line, repeat for each feild.
