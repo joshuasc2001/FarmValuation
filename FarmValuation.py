@@ -90,10 +90,13 @@ def getValue(path, map):
     value += money + loan
     return int(value)
 
-# TODO ask user for path 
+#enter own path here in replace YOUR_USER_HERE with your username & replace savegame1 with desired savegame
+path = "C:\\Users\\YOUR_USER_HERE\\Documents\\My Games\\FarmingSimulator2022\\savegame1" 
 
-path = "C:\\Users\\josh\\Documents\\My Games\\FarmingSimulator2022\\savegame1" 
-map = "C:/Local/Personal/FarmingSimulator/ElmCreek.txt"
+#Replace with path to map file, see included files for examples
+map = "C:/map.txt"
+
+
 loan = int(getLoan(path)[0])
 money = int(getLoan(path)[1])
 placeables  = int(getPlaceables(path))
